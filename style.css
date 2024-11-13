@@ -1,0 +1,142 @@
+/* Style for body */
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height:1.5;
+    background-color: aqua;
+    margin:0;
+    padding:0;
+}
+/* header */
+header{
+    background-color:darkcyan;
+    color:aquamarine;
+    padding:20px 0;
+    text-align:center;
+
+}
+
+header h1{
+    margin:0;
+    font-size:36px;
+}
+
+nav ul{
+    list-style:georgian;
+    padding:0;
+}
+
+nav ul li{
+    display:inline;
+    list-style:georgian;
+    margin:0 20px;
+    font-size:18px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    cursor:-webkit-zoom-in;
+}
+
+/* main */
+main{
+    padding: 20px;
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: rgb(57, 134, 206);
+    box-shadow:0 0 10px rgba(18, 32, 59, 0.4);
+}
+
+main p, main ul, main ol{
+    margin-bottom: 20px;
+}
+h2{
+    color: rgb(93, 107, 190);
+}
+/* FOR IMAGES */
+figure{ 
+    text-align:center;
+    margin:20px 0;
+}
+
+figure img{
+    width: 100%;
+    border-radius:8px;
+}
+
+figcaption{
+    font-style:italic;
+    color:aliceblue;
+}
+
+/* For tables */
+table{
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom:20px;
+}
+table,th,td{
+    border:1px,solid #093633;
+    padding:8px;
+}
+th{
+    background-color: rgb(12, 75, 75);
+    color:blanchedalmond;
+}
+/* for lists */
+
+ul,ol{
+    padding-left: 20px;
+}
+ul,li,ol,li{
+    margin-bottom:5px;
+}
+/* for links */
+a{
+    color:aquamarine;
+    text-decoration: dashed;
+}
+a:hover{
+    text-decoration:underline;
+}
+/* footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+/* for input */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div.form-contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;}
